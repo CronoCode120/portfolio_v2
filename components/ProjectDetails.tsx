@@ -3,8 +3,17 @@
 import { useEffect } from "react";
 import Link from "next/link";
 
-import { DetailsInterface } from "@/components/ProjectsSection"
 import { TbExternalLink, TbBrandGithub } from 'react-icons/tb'
+
+
+export interface DetailsInterface {
+  title: string
+  desc: string
+  link: string
+  repoLink: string
+  usedTech: string[]
+  bgColor: string
+}
 
 const ProjectDetails = ({ details }: { details: DetailsInterface }) => {
   const { title, desc, link, repoLink, usedTech, bgColor } = details
