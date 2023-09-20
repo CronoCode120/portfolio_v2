@@ -16,6 +16,8 @@ const MainCard = () => {
           src={myPic}
           alt='This is me'
           fill
+          sizes="(max-width: 900px) 75vw, 15vw"
+          priority
           onMouseEnter={(e) => showSign(e, 'This is me')}
           onMouseLeave={hideSign}
           className='rounded-full'

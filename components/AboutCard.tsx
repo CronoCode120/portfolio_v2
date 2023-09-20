@@ -13,6 +13,8 @@ const AboutCard = () => {
           src={keyboard}
           alt='Keyboard'
           fill
+          sizes="(max-width: 900px) 100vw, 35vw"
+          priority
           className='drop-shadow-[0_10px_15px_rgb(0,0,0)] object-contain'
         />
       </div>

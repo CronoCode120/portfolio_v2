@@ -49,6 +49,7 @@ const Projects = () => {
                     src={project.image}
                     alt="Screenshot of the project"
                     fill
+                    sizes='(max-width: 900px) 40vw, 35vw'
                     className="object-cover"
                   />
                 </button>
