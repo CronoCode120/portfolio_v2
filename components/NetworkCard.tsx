@@ -10,6 +10,7 @@ const NetworkCard = () => {
     <article className='rounded-3xl bg-blue-700 lg:col-start-1 lg:row-start-4 max-lg:h-[70px] flex justify-evenly items-center text-3xl text-white'>
       <Link
         href={'https://www.linkedin.com/in/cristobal-tavera'}
+        target="_blank"
         aria-label='Linkedin Profile'
         onMouseEnter={(e) => showSign(e, 'Linkedin Profile')}
         onMouseLeave={hideSign}
@@ -19,6 +20,7 @@ const NetworkCard = () => {
         </Link>
       <Link
         href={'https://github.com/CronoCode120'}
+        target="_blank"
         aria-label='Github Profile'
         onMouseEnter={(e) => showSign(e, 'Github Profile')}
         onMouseLeave={hideSign}

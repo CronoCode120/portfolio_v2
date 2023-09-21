@@ -16,11 +16,14 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   box-sizing: border-box;
   background-color: rgb(243 244 246);
   color: black;
-  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
