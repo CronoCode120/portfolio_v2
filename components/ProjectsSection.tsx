@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <section id='projects' className='w-full min-h-screen pt-14'>
       <header className='w-full mt-5'>
-        <h1 className='w-full h-[55px] text-center font-semibold text-5xl'>Projects</h1>
+        <h2 className='w-full h-[55px] text-center font-semibold text-5xl'>Projects</h2>
       </header>
       <div id='project-details' className='w-full pt-14 max-lg:flex max-lg:flex-col max-lg:items-center lg:grid lg:grid-cols-3 lg:justify-items-center lg:items-center gap-[20px]'>
         <ProjectDetails details={details} />
